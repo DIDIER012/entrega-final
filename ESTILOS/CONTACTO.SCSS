@@ -44,3 +44,7 @@ a{
 @media screen {
     @include media;
 }
+
+@media screen{
+    @include grid;
+}

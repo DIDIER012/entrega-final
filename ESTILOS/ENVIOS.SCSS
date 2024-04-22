@@ -22,3 +22,7 @@ nav{
 pre{
     @include pre
 }
+
+@media screen{
+    @include media;
+}
