@@ -52,7 +52,7 @@ PRE {
 }
 
 a {
-  color: gold;
+  color: rgb(255, 217, 0);
 }
 
 @media screen and (max-width: 576px) {
@@ -90,4 +90,4 @@ a {
     grid-template-columns: 1fr;
     grid-template-areas: "redes";
   }
-}/*# sourceMappingURL=CONTACTO.css.map */
+}/*# sourceMappingURL=contacto.css.map */
