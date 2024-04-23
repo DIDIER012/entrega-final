@@ -18,10 +18,30 @@ $fondo1: #ccc;
     font-size: 20px;
 }
 
+@mixin nav{
+    .navbar-brand{
+        font-size: 50px;
+    }
+    .container-fluid{
+        font-size: 40px;
+    }
+    .nav-link:hover{
+        color: gold;
+        transition: all 0.9s;
+        transform: scale(1.1);
+    }
+    span{
+        color: gold;
+    }
+    nav{
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 20px;
+    }
+}
 @mixin media{
-    @media (max-width: 576px) {
- 
-        .navbar-nav {
+    @media (max-width: 1180px) {
+        .navbar-collapsibleNavbar {
+            
             flex-direction: column;
         }
         .navbar-nav .nav-item {

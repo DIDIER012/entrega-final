@@ -1,25 +1,7 @@
 @import"ESTILOS/PRINCIPALES";
 
-/* INICIO DE NAV */
-.navbar-brand{
-    font-size: 50px;
-}
-.container-fluid{
-    font-size: 40px;
-}
-.nav-link:hover{
-    color: gold;
-    transition: all 0.9s;
-    transform: scale(1.1);
-}
-span{
-    color: gold;
-}
-nav{
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 20px;
-}
-/* FIN DE NAV */
+@include nav;
+
 // INICIO DE CARRUCEL \\
 .carousel-item img {
     margin-top: 3%; 
