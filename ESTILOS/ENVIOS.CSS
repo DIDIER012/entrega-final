@@ -23,6 +23,14 @@ nav {
   font-size: 20px;
 }
 
+body {
+  background-color: #ccc;
+}
+
+h1 {
+  font-family: "Archivo Black", "archivo-black";
+}
+
 pre {
   width: 80%;
   margin: 0 auto;

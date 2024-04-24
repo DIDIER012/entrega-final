@@ -1,7 +1,13 @@
 @import"PRINCIPALES";
 
 @include nav;
+body{
+    background-color: $fondo1;
+}
 
+h1{
+    font-family: $font1
+}
 pre{
     @include pre
 }

@@ -38,6 +38,8 @@ $fondo1: #ccc;
         font-size: 20px;
     }
 }
+
+
 @mixin media{
     @media (max-width: 1180px) {
         .navbar-collapsibleNavbar {
