@@ -39,52 +39,11 @@ $fondo1: #ccc;
     }
 }
 
-
-@mixin media{
-    @media (max-width: 1180px) {
-        .navbar-collapsibleNavbar {
-            
-            flex-direction: column;
-        }
-        .navbar-nav .nav-item {
-            text-align: center;
-        }
-    }
-    
-    
-    @media (min-width: 577px) and (max-width: 992px) {
-        .navbar-nav {
-            flex-direction: row;
-        }
-        .navbar-nav .nav-item {
-            text-align: center;
-        }
-    }
-    
-    
-    @media (min-width: 993px) {
-        .navbar-nav {
-            flex-direction: row;
-        }
-        .navbar-nav .nav-item {
-            text-align: center;
-        }
-    }
-}
-
 @mixin grid{
     @media screen and (max-width: 1200px) {
-        .container {
-            grid-template-columns: 1fr 1fr;
-            grid-template-areas: "redes redes";
-        }
-    }
-    
-    @media screen and (max-width: 768px) {
         .container {
             grid-template-columns: 1fr;
             grid-template-areas: "redes";
         }
     }
 }
-

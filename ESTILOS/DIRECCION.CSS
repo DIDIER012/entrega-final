@@ -44,29 +44,4 @@ PRE {
 #mapa {
   display: flex;
   justify-content: center;
-}
-
-@media screen and (max-width: 1180px) {
-  .navbar-collapsibleNavbar {
-    flex-direction: column;
-  }
-  .navbar-nav .nav-item {
-    text-align: center;
-  }
-}
-@media screen and (min-width: 577px) and (max-width: 992px) {
-  .navbar-nav {
-    flex-direction: row;
-  }
-  .navbar-nav .nav-item {
-    text-align: center;
-  }
-}
-@media screen and (min-width: 993px) {
-  .navbar-nav {
-    flex-direction: row;
-  }
-  .navbar-nav .nav-item {
-    text-align: center;
-  }
 }/*# sourceMappingURL=direccion.css.map */

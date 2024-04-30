@@ -33,6 +33,12 @@ h1 {
   font-family: "Archivo Black", "archivo-black";
 }
 
+h2 {
+  font-size: 280%;
+  margin-top: 3%;
+  font-family: "Archivo Black", "archivo-black";
+}
+
 pre {
   width: 80%;
   margin: 0 auto;
@@ -40,29 +46,4 @@ pre {
   overflow-wrap: break-word;
   margin-top: 4%;
   font-size: 20px;
-}
-
-@media screen and (max-width: 1180px) {
-  .navbar-collapsibleNavbar {
-    flex-direction: column;
-  }
-  .navbar-nav .nav-item {
-    text-align: center;
-  }
-}
-@media screen and (min-width: 577px) and (max-width: 992px) {
-  .navbar-nav {
-    flex-direction: row;
-  }
-  .navbar-nav .nav-item {
-    text-align: center;
-  }
-}
-@media screen and (min-width: 993px) {
-  .navbar-nav {
-    flex-direction: row;
-  }
-  .navbar-nav .nav-item {
-    text-align: center;
-  }
 }/*# sourceMappingURL=nosotros.css.map */

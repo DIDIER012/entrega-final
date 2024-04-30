@@ -24,10 +24,6 @@ a{
     color: rgb(255, 217, 0);
 }
 
-@media screen {
-    @include media;
-}
-
 @media screen{
     @include grid;
 }
