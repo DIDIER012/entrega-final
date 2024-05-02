@@ -49,6 +49,13 @@ body {
   width: 100vh;
 }
 
+.card-img-top {
+  display: grid;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+}
+
 @media screen and (max-width: 600px) {
   .card {
     width: 200px;
