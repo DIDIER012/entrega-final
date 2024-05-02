@@ -2,7 +2,6 @@
 
 @include nav;
 
-
 .carousel-item img {
     margin-top: 3%; 
 }
@@ -23,3 +22,25 @@ body{
     background-color: gray;
 }
 
+.card{
+    margin: 10%;
+    height: auto;
+    width: 100vh;
+}
+
+@media screen and (max-width: 600px) {
+    .card{
+        width: 200px;
+        height: auto;
+    }
+    .carousel{
+        width: 100vh;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 1200px) {
+    .card{
+        width: 600px;
+        height: auto;
+    }
+}
