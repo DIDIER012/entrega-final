@@ -1,0 +1,20 @@
+@import"PRINCIPALES";
+
+@include nav;
+
+body{
+    background-color: $fondo1;
+}
+h1{
+    font-size: 280%;
+    margin-top: 3%;
+    font-family: $font1;
+}
+h2{
+    font-size: 280%;
+    margin-top: 3%;
+    font-family: $font1
+}
+pre{
+    @include pre
+}
