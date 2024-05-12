@@ -52,9 +52,8 @@ body{
 }
 
 @media screen and (min-width: 600px) and (max-width: 1200px) {
-    
     .carousel{
-        height: auto;
+        width: auto;
         align-items: center;
     }
     .card{
